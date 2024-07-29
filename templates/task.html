@@ -1,0 +1,9 @@
+<div class="flex items-center bg-white px-4 py-2 shadow-sm rounded mb-3">
+    <input type="checkbox" {{ if eq .Status "completed" }}checked{{ end }}
+        hx-post="/toggle-status{{ .id }}" hx-target="this" hx-swap="outerHTML"
+        class="mr-2">
+    <span class="{{ if eq .Status "completed" }}text-gray-500 line-through{{ else }}text-black{{ end }} flex-1">
+        {{ .title }}
+    </span>
+    <button class="text-red-500 hover:text-red-700" hx-delete="/todos{{ .id }}" hx-target="closest div">Delete</button>
+</div>
