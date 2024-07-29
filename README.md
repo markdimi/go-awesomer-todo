@@ -1,6 +1,8 @@
 # Awesomer Go Todo App
 
-This Todo app is a simple web application built using Go and the Gin framework. It was originally introduced in a tutorial by @awesome-coding on a YouTube video called `The Simplest Tech Stack` (found here: https://www.youtube.com/watch?v=jeT8m7490Pg). Unfortunately, the tutorial omitted a few crucial steps and did not show the final result of the project, leaving viewers without a clear understanding of the expected functionality. With the assistance of Tailwind CSS for styling and guidance from ChatGPT, I have completed the project by providing the missing steps and detailed instructions on how to set up and run the app effectively.
+This Todo app is a simple web application built using Go and the Gin framework. It was originally introduced in a tutorial by @awesome-coding on a YouTube video called `The Simplest Tech Stack` (found here: https://www.youtube.com/watch?v=jeT8m7490Pg). 
+
+Unfortunately, the tutorial omitted a few crucial steps and did not show the final result of the project, leaving viewers without a clear understanding of the expected functionality. With the assistance of Tailwind CSS for styling and guidance from ChatGPT, I have completed the project by providing the missing steps and detailed instructions on how to set up and run the app effectively.
 
 ## Prerequisites
 
